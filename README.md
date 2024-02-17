@@ -1,22 +1,15 @@
 # mianjing-client
-
-## Project setup
-```
+实战项目面经基础版web前端实现  
+[中文说明](README.md) | [English](README-en.md)
+## 项目运行
+```sh
+# 安装依赖
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
+# 启动服务
 npm run serve
-```
-
-### Compiles and minifies for production
-```
+# 项目打包
 npm run build
-```
-
-### Lints and fixes files
-```
+# Lints and fixes files
 npm run lint
 ```
 
