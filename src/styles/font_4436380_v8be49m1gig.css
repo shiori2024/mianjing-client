@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4436380 */
+  src: url('//at.alicdn.com/t/c/font_4436380_v8be49m1gig.woff2?t=1708182134995') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4436380_v8be49m1gig.woff?t=1708182134995') format('woff'),
+       url('//at.alicdn.com/t/c/font_4436380_v8be49m1gig.ttf?t=1708182134995') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dianzanshoucang:before {
+  content: "\e740";
+}
+
+.icon-a-icon_dianzanshoucang:before {
+  content: "\e615";
+}
+
+.icon-exit:before {
+  content: "\e604";
+}
+
+.icon-date:before {
+  content: "\e605";
+}
+
+.icon-more:before {
+  content: "\e606";
+}
+
+.icon-link:before {
+  content: "\e607";
+}
+
+.icon-refresh:before {
+  content: "\e608";
+}
+
+.icon-correct:before {
+  content: "\e609";
+}
+
+.icon-error:before {
+  content: "\e60a";
+}
+
+.icon-a-wancheng-complete1:before {
+  content: "\e60b";
+}
+
+.icon-a-bangzhu-help1:before {
+  content: "\e60c";
+}
+
+.icon-a-guanbi2-close21:before {
+  content: "\e60d";
+}
+
+.icon-guanbi-close:before {
+  content: "\e60e";
+}
+
+.icon-paixu-sort:before {
+  content: "\e60f";
+}
+
+.icon-icon-geren-personal-fill:before {
+  content: "\e610";
+}
+
+.icon-a-icon_personal1:before {
+  content: "\e611";
+}
+
+.icon-xinxi-info-fill:before {
+  content: "\e612";
+}
+
+.icon-a-icon_wancheng-complete-fill1:before {
+  content: "\e613";
+}
+
+.icon-icon_saoma-scan:before {
+  content: "\e614";
+}
+
+.icon-houtui-back:before {
+  content: "\e618";
+}
+
+.icon-icon_shanchu-delete-fill:before {
+  content: "\e61b";
+}
+
+.icon-kapian-card:before {
+  content: "\e61c";
+}
+
+.icon-liebiao-list:before {
+  content: "\e61d";
+}
+
+.icon-shezhi-setting:before {
+  content: "\e61f";
+}
+
+.icon-shouye-home:before {
+  content: "\e620";
+}
+
+.icon-a-xuanzhuanmianban-rotatepanel-anti-1:before {
+  content: "\e621";
+}
+
+.icon-shijian-time:before {
+  content: "\e624";
+}
+
+.icon-quanping-fullscreen:before {
+  content: "\e625";
+}
+
