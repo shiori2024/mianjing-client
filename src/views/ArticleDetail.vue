@@ -35,8 +35,8 @@
         @clickLike="handlerLike"
         @clickCollect="handlerCollect"
       ></LikeBox>
-      <TipUp content="点赞成功"></TipUp>
     </div>
+    <TipUp :content="info" :tapStatus="tapStatus"></TipUp>
   </div>
 </template>
 
@@ -50,7 +50,7 @@ import TipUp from "@/components/TipUp";
 
 export default {
   name: "ArticleDetail",
-  components: { LikeBox,TipUp },
+  components: { LikeBox, TipUp },
   data() {
     return {
       testList: {
@@ -64,8 +64,10 @@ export default {
       },
       data: {},
       commonTime: "",
-      likes: 0,
-      collect: 0,
+      likes: false,
+      collect: false,
+      tapStatus: false,
+      info: "",
     };
   },
   async created() {
@@ -79,19 +81,23 @@ export default {
   methods: {
     handlerLike(bl) {
       if (bl) {
-        this.likes++;
+        this.likes = true;
+        this.tapStatus = true;
+        this.info = "点赞成功";
       } else {
-        this.likes--;
+        this.likes = false;
+        this.tapStatus = false;
       }
-      console.log(this.likes);
     },
     handlerCollect(bl) {
       if (bl) {
-        this.collect++;
+        this.collect = true;
+        this.tapStatus = true;
+        this.info = "收藏成功";
       } else {
-        this.collect--;
+        this.collect = false;
+        this.tapStatus = false;
       }
-      console.log(this.collect);
     },
   },
 };

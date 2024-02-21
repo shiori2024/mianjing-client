@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="main" v-show="tapStatus" :class="tapStatus?'animate__animated animate__fadeInUp':''">
     <slot name="icon">
       <i class="iconfont icon-a-wancheng-complete1"></i>
     </slot>
@@ -9,6 +9,8 @@
 </template>
   
 <script>
+import 'animate.css';
+
 export default {
   name: "TipUp",
   props: {
@@ -19,13 +21,15 @@ export default {
     content: {
       type: String,
       default: "成功",
-    }
+    },
+    tapStatus: {
+      type: Boolean,
+      default: false,
+    },
   },
   data() {
-    return {
-    };
-  },
-  methods: {},
+    return {};
+  }
 };
 </script>
 

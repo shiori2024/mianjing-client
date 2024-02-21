@@ -17,8 +17,8 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### todo
-- [ ] 提示弹窗组件动画效果
+- [x] 提示弹窗组件动画效果
 - [ ] 点赞和收藏数据提交至后端，后端开放接口
-- [ ] 编写`visits`访问量算法，渲染info数据
 - [ ] 收藏页
 - [ ] 喜欢页
+- [ ] 编写`visits`访问量算法，渲染info数据

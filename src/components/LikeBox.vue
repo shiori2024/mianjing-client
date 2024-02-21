@@ -44,6 +44,7 @@ export default {
   align-items: center;
   text-align: center;
   padding: 15px;
+  margin: 30px auto;
 }
 
 .like-box:hover {
