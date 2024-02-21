@@ -1,5 +1,5 @@
 # mianjing-client
-实战项目面经基础版web前端实现  
+Implementation of Basic Web Front End for Practical Projects.  
 [中文说明](README.md) | [English](README-en.md)
 
 ## Project setup
